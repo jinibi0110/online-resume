@@ -48,7 +48,7 @@ body {
   padding: 0px;
   overflow-y: hidden;
   overflow-x: hidden;
-  background: #161b1f;
+  background: #ebe0d0;
 }
 
 h1,
@@ -60,17 +60,19 @@ h6 {
   margin: 0px;
 }
 
-$BG1: #161b1f;
-$BG2: #232a30;
-$BG3: #c5e4ff8a;
-$BG4: #add8fd;
+$BG1: #ebe0d0;
+$BG2: #84a4ac;
+$BG3: #b1c1c7;
+$BG4: #d5ac7e;
 $BG5: #3c7bb3;
-$BG6: #ffb01c;
+$BG6: #d5ac7e;
 $BG7: #c48818;
-$BG8: #6cbaff;
+$BG8: #84a4ac;
 
 $text1: white;
-$text2: #c2d7e9;
+$text2: #b1c1c7;
+$text3: #7c6f69;
+$text4: #84a4ac;
 
 ::-webkit-scrollbar {
   width: 3px;
@@ -91,7 +93,7 @@ $text2: #c2d7e9;
 
 .main_layout {
   margin: auto;
-  background: #161b1f;
+  background: #ebe0d0;
   height: 100vh;
   display: flex;
   align-items: flex-start;
@@ -120,7 +122,8 @@ $text2: #c2d7e9;
   height: 100%;
   border-radius: 10px;
 }
-.side_header, .side_profile {
+.side_header,
+.side_profile {
   // border: 1px solid red;
   width: 100%;
   height: auto;
@@ -134,7 +137,9 @@ $text2: #c2d7e9;
   margin-top: 40px;
   border-radius: 100px;
 }
-.profile_name, .profile_title, .profile_sub {
+.profile_name,
+.profile_title,
+.profile_sub {
   margin: auto;
   width: 100%;
   text-align: center;
@@ -334,7 +339,7 @@ $text2: #c2d7e9;
 }
 .content_title {
   font-family: font_BL;
-  color: $text2;
+  color: $text3;
   font-size: 14px;
   display: block;
   margin-top: 7px;
@@ -345,19 +350,20 @@ $text2: #c2d7e9;
   font-family: font_M;
   font-size: 13px;
   display: block;
+  color: $text4;
 }
 .content_note {
   margin-top: 7px;
   font-family: font_R;
   font-size: 12px;
-  color: $text2;
+  color: $text3;
   display: block;
 }
 .content_desc {
   margin-top: 7px;
   font-family: font_R;
   font-size: 12px;
-  color: $text1;
+  color: $text3;
   display: block;
 }
 .content_link {
@@ -395,14 +401,14 @@ $text2: #c2d7e9;
   height: fit-content;
 }
 .goTopBtn {
-  background: #c5e4ff1d;
+  background: #d5ac7e;
   color: white;
   transition: 0.4s;
   width: 50px;
   height: 50px;
   border-radius: 100px;
   &:hover {
-    background: #6cbaff;
+    background: #b78048;
     transition: 0.4s;
   }
 }
